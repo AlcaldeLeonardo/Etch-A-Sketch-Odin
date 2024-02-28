@@ -48,6 +48,9 @@
 }
 
 .popup legend {
-    margin-bottom: 1em;
+    margin-bottom: 0.2em;
     font-size: 1.3em;
+}
+.popup p{
+    margin-bottom: 1.2em;
 }
