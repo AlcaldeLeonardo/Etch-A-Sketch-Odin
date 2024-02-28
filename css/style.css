@@ -11,11 +11,9 @@
     display: flex;
     background-color: blue;
     flex-direction: column;
-    width: calc(100%/16)
 }
 .square {
     flex-direction: row;
     background-color: white;
-    height: calc(100%/16);
-    border: 1px solid black;
+    border: .25px solid rgba(0, 0, 0, 0.192);
 }
