@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    width: 600px;
+    height: 600px;
+    background-color: aqua;
+}
+.column {
+    display: flex;
+    background-color: blue;
+    flex-direction: column;
+    width: calc(100%/16)
+}
+.square {
+    flex-direction: row;
+    background-color: white;
+    height: calc(100%/16);
+    border: 1px solid black;
+}
