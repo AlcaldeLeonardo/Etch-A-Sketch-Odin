@@ -1,5 +1,4 @@
-export function RenderSketch(x, y){
-    const container = document.querySelector(`.container`)
+export function RenderSketch(container, x, y){
     for (let i = 0; i < y; i++) {
         const column = document.createElement(`div`)
         column.style.width = `calc(100%/${y})`
