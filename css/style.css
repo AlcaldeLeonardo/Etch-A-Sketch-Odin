@@ -1,10 +1,14 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+}
+.toolBar {
+    padding: 2em;
 }
 .container{
     display: flex;
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     background-color: aqua;
     margin:auto;
 }
@@ -16,5 +20,34 @@
 .square {
     flex-direction: row;
     background-color: white;
-    border: .25px solid rgba(0, 0, 0, 0.192);
+    border: .25px solid rgba(0, 0, 0, 0.315);
+}
+
+.nonVisible {
+    display: none;
+}
+
+.darkness {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color:rgba(0, 0, 0, 0.322)
+}
+
+.popup {
+    height: 150px;
+    width: 500px;
+    padding: 2em;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(194, 194, 194);
+    position: absolute;
+    top : calc(50vh - 75px);
+    left: calc(50% - 250px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.37);
+}
+
+.popup legend {
+    margin-bottom: 1em;
+    font-size: 1.3em;
 }
