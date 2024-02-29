@@ -1,5 +1,7 @@
 function Draw(pixel) {
-    pixel.style.backgroundColor = "black";
+    let Alpha = Number((pixel.style.backgroundColor).split(",")[3].split(")")[0].split(" ")[1])
+    Alpha = Alpha + 0.1
+    pixel.style.backgroundColor = `rgba(0,0,0,${Alpha})`;
 }
 
 export function Drawing() {

@@ -9,12 +9,12 @@
     display: flex;
     width: 500px;
     height: 500px;
-    background-color: aqua;
+    /* background-color: aqua; */
     margin:auto;
 }
 .column {
     display: flex;
-    background-color: blue;
+    /* background-color: blue; */
     flex-direction: column;
 }
 .square {

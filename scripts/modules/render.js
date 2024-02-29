@@ -8,6 +8,7 @@ export function RenderSketch(container, x, y){
             const square = document.createElement(`div`)
             square.className = `square`
             square.style.height = `calc(100%/${x})`
+            square.style.backgroundColor = `rgba(0,0,0,0)`
             column.appendChild(square);
         }
         
