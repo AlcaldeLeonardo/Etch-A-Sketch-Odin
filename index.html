@@ -1,41 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Etch-A-Sketch</title>
-</head>
-<body id="root">
-
-    <div class="darkness nonVisible">
-        <div class="popup">
-            <form action="#">
-                <h2>Whiteboardand Brush Config</h2>
-                <p>Values less than 100 please</p>
-                <label for="Xdimension">X</label>
-                <input value = "16"min="1" max="100" id="Xdimension" name ="Xdimension"type="number">
-                <label for="Ydimension">Y</label>
-                <input value = "16"min="1" max="100" name = "Ydimension" id="Ydimension" type="number">
-                <label for="drawMode">Rainbow Mode</label>
-                <input id="drawMode" value= "rainbow" type="checkbox">
-                <button type="button" id="btnSizeConfig">Set</button>
-            </form>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Etch-A-Sketch</title>
+    </head>
+    <body id="root">
+        <div class="darkness nonVisible">
+            <div class="popup">
+                <form action="#">
+                    <h2>Whiteboardand Brush Config</h2>
+                    <p>Values less than 100 please</p>
+                    <label for="Xdimension">X</label>
+                    <input
+                        value="16"
+                        min="1"
+                        max="100"
+                        id="Xdimension"
+                        name="Xdimension"
+                        type="number"
+                    />
+                    <label for="Ydimension">Y</label>
+                    <input
+                        value="16"
+                        min="1"
+                        max="100"
+                        name="Ydimension"
+                        id="Ydimension"
+                        type="number"
+                    />
+                    <label for="drawMode">Rainbow Mode</label>
+                    <input id="drawMode" value="rainbow" type="checkbox" />
+                    <button type="button" id="btnSizeConfig">Set</button>
+                </form>
+            </div>
         </div>
-    </div>
 
-    <main class="main">
-        <div id="toolBar" class="toolBar">
-            <button id="btnSize" class="btnSize">Set Whiteboard and Brush</button>
-            <button id="btnClear" class="btnMode">Clear Whiteboard</button>
-            <p>Click on the board to start!</p>
-        </div>
-        <div class="container">
-            
-        </div>
-    </main>
+        <main class="main">
+            <div id="toolBar" class="toolBar">
+                <button id="btnSize" class="btnSize">
+                    Set Whiteboard and Brush
+                </button>
+                <button id="btnClear" class="btnMode">Clear Whiteboard</button>
+                <p>Click on the board to start!</p>
+            </div>
+            <div class="container"></div>
+        </main>
 
-
-    <script type="module" src="scripts/index.js"></script>
-</body>
+        <script type="module" src="scripts/index.js"></script>
+    </body>
 </html>
