@@ -14,9 +14,11 @@
                 <legend>Whiteboard Size</legend>
                 <p>Values less than 100 please</p>
                 <label for="Xdimension">X</label>
-                <input min="1" max="100" id="Xdimension" name ="Xdimension"type="number">
+                <input value = "16"min="1" max="100" id="Xdimension" name ="Xdimension"type="number">
                 <label for="Ydimension">Y</label>
-                <input min="1" max="100" name = "Ydimension" id="Ydimension" type="number">
+                <input value = "16"min="1" max="100" name = "Ydimension" id="Ydimension" type="number">
+                <label for="">Rainbow Mode</label>
+                <input id="drawMode" value= "rainbow" type="checkbox">
                 <button id="btnSizeConfig">Set</button>
             </form>
         </div>
@@ -25,6 +27,7 @@
     <main class="main">
         <div id="toolBar" class="toolBar">
             <button id="btnSize" class="btnSize">Set Whiteboard Size</button>
+            <button id="btnMode" class="btnMode">Set Mode</button>
         </div>
         <div class="container">
             

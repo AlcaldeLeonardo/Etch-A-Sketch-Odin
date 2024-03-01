@@ -1,6 +1,6 @@
 import { Drawing } from "./modules/draw.js";
 import { RenderSketch } from "./modules/render.js"
-import { SetWhiteboardPopup } from "./modules/setWhitboard.js";
+import { SetWhiteboardPopup } from "./modules/setWhiteboard.js";
 
 (()=>{
 

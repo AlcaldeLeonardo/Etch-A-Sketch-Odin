@@ -13,6 +13,8 @@ export function SetWhiteboardPopup(container){
         popup.classList.toggle(`nonVisible`);
         console.log("Hi, i'm the popup")
     })
+
+
     btnSetConfirm.addEventListener(`click`, (e)=> {
         let x = Number(xDimension.value);
         let y = Number(yDimension.value);
@@ -30,6 +32,5 @@ export function SetWhiteboardPopup(container){
             console.log("Bye");
             Drawing();
         }
-
     })
 }
