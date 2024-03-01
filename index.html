@@ -11,23 +11,23 @@
     <div class="darkness nonVisible">
         <div class="popup">
             <form action="#">
-                <legend>Whiteboard Size</legend>
+                <h2>Whiteboardand Brush Config</h2>
                 <p>Values less than 100 please</p>
                 <label for="Xdimension">X</label>
                 <input value = "16"min="1" max="100" id="Xdimension" name ="Xdimension"type="number">
                 <label for="Ydimension">Y</label>
                 <input value = "16"min="1" max="100" name = "Ydimension" id="Ydimension" type="number">
-                <label for="">Rainbow Mode</label>
+                <label for="drawMode">Rainbow Mode</label>
                 <input id="drawMode" value= "rainbow" type="checkbox">
-                <button id="btnSizeConfig">Set</button>
+                <button type="button" id="btnSizeConfig">Set</button>
             </form>
         </div>
     </div>
 
     <main class="main">
         <div id="toolBar" class="toolBar">
-            <button id="btnSize" class="btnSize">Set Whiteboard Size</button>
-            <button id="btnMode" class="btnMode">Set Mode</button>
+            <button id="btnSize" class="btnSize">Set Whiteboard and Brush</button>
+            <button id="btnClear" class="btnMode">Clear Whiteboard</button>
         </div>
         <div class="container">
             
