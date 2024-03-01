@@ -19,7 +19,7 @@ export function SetWhiteboardPopup(container){
 
         e.preventDefault();
 
-        if(x <= 100 && y <= 100) {
+        if(1 <= x && x <= 100 && 1 <= y && y <= 100) {
             while(container.firstChild){
                 container.removeChild(container.firstChild)
             }
